@@ -340,6 +340,37 @@ section + section::before {
   font-size: 19px;
 }
 
+.founder {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 720px;
+  margin: 40px auto 0;
+  text-align: left;
+}
+
+.founder-photo {
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+}
+
+.founder-bio h2 {
+  margin-top: 0;
+}
+
+.founder-bio p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .founder {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* ---------- Menu grid ---------- */
 
 .menu-grid {

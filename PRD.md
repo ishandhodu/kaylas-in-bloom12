@@ -55,9 +55,10 @@ Nav is identical on all 6 pages: About · Menu · Subscriptions · Custom · Con
 - Kayla can open the deployed link on her phone and find pricing + a way to reach out within a few taps.
 - A real accessibility pass done (contrast, alt text, label associations) — targeting, not guaranteeing, Lighthouse a11y > 90.
 
-## Open follow-ups (after Tuesday, not blocking)
+## Later (ranked by Kayla, from the 10/1 follow-up — see `FEEDBACK.md`)
 
-1. Real bouquet photography from Kayla, replacing illustrated motifs on `menu.html`/`subscriptions.html`.
-2. Set Kayla's real email into `KAYLA_EMAIL` in `js/main.js` — deliberately left as a placeholder in this repo (see Notes in `README.md`), not something to fix here, since it's a real person's address in a public course-assignment repo. Whoever operates the site day-to-day sets it locally.
-3. ~~Get Kayla's direct sign-off on this rebuilt version~~ — **done**, see `FEEDBACK.md` (Sep 27). No changes requested; she approved the design and structure as built.
-4. Kayla's inspiration site is now identified (Fleuri Designs, see `PROPOSAL.md`), but what specifically she likes about it hasn't been pinned down — still worth a quick follow-up rather than guessing, and worth seeing a couple more comparable sites beyond just the one.
+1. **Fully functional Stripe checkout.** Kayla's top ask on 10/1 — she wants real payment collection, not just a contact-and-confirm flow. Still a non-goal for this course deliverable (it needs a real backend and sits in the Recommended/Premium tier of the separate Ivy Devs engagement), so it stays unbuilt here, but it's now the clear #1 for that paid build.
+2. ~~Founder-led About page~~ — **done**. Kayla asked for an About section built around her as the founder (photo, background, her own story) rather than just a brand paragraph, so the site reads as her brand and not a generic shop. Built in `about.html`/`css/styles.css`; photo is a placeholder (`images/founder-placeholder.svg`) until she sends a real headshot, the same documented-placeholder pattern as `KAYLA_EMAIL`.
+3. Real bouquet photography from Kayla — scoped to `menu.html`/`subscriptions.html` only, per her 10/1 direction that the rest of the site should stay her hand-drawn brand assets, not stock/real photos.
+4. Set Kayla's real email into `KAYLA_EMAIL` in `js/main.js` — deliberately left as a placeholder in this repo (see Notes in `README.md`), not something to fix here, since it's a real person's address in a public course-assignment repo. Whoever operates the site day-to-day sets it locally.
+5. Kayla's inspiration site is now identified (Fleuri Designs, see `PROPOSAL.md`), but what specifically she likes about it hasn't been pinned down — still worth a quick follow-up rather than guessing, and worth seeing a couple more comparable sites beyond just the one. Not mentioned on 10/1, so left last rather than guessed into a higher slot.
